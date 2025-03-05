@@ -13,7 +13,7 @@ import {
   Cpu,
   Cloud,
   Terminal,
-  Flask,
+  Beaker,
   LayoutGrid,
   ImagePlus,
 } from 'lucide-react';
@@ -27,7 +27,7 @@ const skillsData = [
   { name: 'Big Data', icon: <Database className="h-10 w-10" />, level: 'Intermediate' },
   { name: 'Python', icon: <Code className="h-10 w-10" />, level: 'Expert' },
   { name: 'TensorFlow', icon: <LayoutGrid className="h-10 w-10" />, level: 'Advanced' },
-  { name: 'PyTorch', icon: <Flask className="h-10 w-10" />, level: 'Advanced' },
+  { name: 'PyTorch', icon: <Beaker className="h-10 w-10" />, level: 'Advanced' },
   { name: 'Statistics', icon: <LineChart className="h-10 w-10" />, level: 'Advanced' },
   { name: 'MLOps', icon: <Cloud className="h-10 w-10" />, level: 'Intermediate' },
   { name: 'Software Dev', icon: <Terminal className="h-10 w-10" />, level: 'Advanced' },

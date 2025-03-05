@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import Section from './Section';
-import { Mail, GitHub, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     name: 'GitHub',
-    icon: <GitHub className="h-5 w-5" />,
+    icon: <Github className="h-5 w-5" />,
     url: 'https://github.com',
   },
   {

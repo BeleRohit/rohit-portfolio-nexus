@@ -6,9 +6,9 @@ import ProjectCard from './ProjectCard';
 
 const projectsData = [
   {
-    title: 'AI-Powered Medical Diagnosis',
-    description: 'Deep learning system for automated medical image analysis and disease diagnosis with 95% accuracy.',
-    tags: ['Deep Learning', 'Computer Vision', 'Healthcare'],
+    title: 'Fine Tuning LLM Models',
+    description: 'Fine Tuning Large language models like Deepseek's R1 and LLama 2',
+    tags: ['fine tuning','LLM','large language models'],
     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop',
     githubUrl: 'https://github.com',
     liveUrl: 'https://example.com',

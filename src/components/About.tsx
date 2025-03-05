@@ -1,4 +1,3 @@
-
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import Section from './Section';
@@ -22,11 +21,16 @@ const About = () => {
           )}
         >
           <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white shadow-xl">
-            <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
-              alt="Rohit Bele"
-              className="w-full h-full object-cover"
-            />
+            <div className="w-full h-full relative">
+              <img
+                src="/lovable-uploads/2c012a68-d0a1-48cf-bd25-26b0653dff19.png"
+                alt="Rohit Bele"
+                className="w-full h-full object-cover object-center scale-[1.25]"
+                style={{
+                  objectPosition: "50% 25%",
+                }}
+              />
+            </div>
           </div>
         </div>
         

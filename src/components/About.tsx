@@ -1,3 +1,4 @@
+
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import Section from './Section';
@@ -42,23 +43,18 @@ const About = () => {
           )}
         >
           <p className="text-lg text-foreground/80">
-            Hello! I'm Rohit, an AI Engineer and Researcher with expertise in machine learning,
-            natural language processing, and computer vision. With a passion for
-            creating intelligent solutions that solve real-world problems, I strive to
-            bridge the gap between cutting-edge research and practical applications.
+            Results-driven Data Scientist and AI Engineer with expertise in Natural Language Processing (NLP), Generative
+            AI, and Large Language Models (LLMs). Proficient in Python, SQL, PL/SQL, ETL Pipelines, and Reporting
+            Tools.
           </p>
           
           <p className="text-lg text-foreground/80">
-            My journey in AI began during my academic years, where I developed a
-            fascination for how machines can learn from data and make intelligent
-            decisions. Since then, I've worked on various projects ranging from
-            predictive analytics to developing conversational AI systems.
+            Strong analytical mindset with hands-on experience in AI model development, cloud computing (AWS),
+            and data-driven decision-making. Passionate about leveraging AI to solve real-world business problems.
           </p>
           
           <p className="text-lg text-foreground/80">
-            When I'm not coding or researching, you can find me exploring the latest
-            tech trends, contributing to open-source projects, or mentoring aspiring
-            data scientists and AI enthusiasts.
+            Known for high motivation, strong work ethic, and adaptability in fast-paced environments.
           </p>
           
           <div className="grid grid-cols-2 gap-4 mt-4">

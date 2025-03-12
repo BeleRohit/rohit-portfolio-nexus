@@ -60,14 +60,14 @@ const About = () => {
           <div className="grid grid-cols-2 gap-4 mt-4">
             <div>
               <h3 className="text-xl font-bold text-primary mb-2">Education</h3>
-              <p className="text-foreground font-medium">Masters in AI</p>
-              <p className="text-sm text-muted-foreground">Stanford University, 2021</p>
+              <p className="text-foreground font-medium">Bachelor's in Computer Science ( Specializing in Data Science)</p>
+              <p className="text-sm text-muted-foreground">Lovely Professional University, 2024</p>
             </div>
             
             <div>
               <h3 className="text-xl font-bold text-primary mb-2">Experience</h3>
-              <p className="text-foreground font-medium">AI Engineer</p>
-              <p className="text-sm text-muted-foreground">5+ Years</p>
+              <p className="text-foreground font-medium">Data Scientist</p>
+              <p className="text-sm text-muted-foreground">1 Year</p>
             </div>
           </div>
         </div>

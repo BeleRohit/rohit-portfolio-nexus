@@ -21,43 +21,34 @@ const projectsData = [
     githubUrl: 'https://github.com/BeleRohit/LinkedList_Operations',
   },
   {
-    title: 'NLP Document Summarizer',
-    description: 'An advanced NLP system that summarizes lengthy documents while preserving key information and context.',
-    tags: ['NLP', 'Transformers', 'BERT'],
-    image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2030&auto=format&fit=crop',
-    githubUrl: 'https://github.com',
-  },
+  title: "AI PDF Assistant",
+  description: "A proof-of-concept web application that enables users to chat with the contents of a PDF document using a language model. Built with Streamlit and powered by Anyscale’s free LLM API.",
+  tags: ["NLP", "LLM", "PDF Processing", "Chatbot"],
+  image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf25f?q=80&w=2030&auto=format&fit=crop",
+  githubUrl: "http://github.com/BeleRohit/chatty-patty"
+},
   {
-    title: 'Predictive Maintenance System',
-    description: 'IoT and machine learning solution for industrial equipment failure prediction, reducing downtime by 30%.',
-    tags: ['Time Series', 'IoT', 'Machine Learning'],
-    image: 'https://images.unsplash.com/photo-1581092921461-39b11a63ae62?q=80&w=2070&auto=format&fit=crop',
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
-  },
+  title: "Speech Emotion Classifier",
+  description: "A Speech Emotion Recognition (SER) system using Convolutional Neural Networks (CNN) in Python. It classifies audio recordings into emotion categories, enabling applications in customer service, mental health monitoring, and more.",
+  tags: ["Deep Learning", "CNN", "Speech Recognition", "Emotion Analysis"],
+  image: "https://images.unsplash.com/photo-1581093448798-5b77c6f00d4c?q=80&w=2030&auto=format&fit=crop",
+  githubUrl: "http://github.com/BeleRohit/speech-classifier"
+},
   {
-    title: 'Sentiment Analysis Dashboard',
-    description: 'Real-time social media sentiment analysis tool with interactive visualization dashboard.',
-    tags: ['NLP', 'Data Viz', 'Web Development'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
-  },
-  {
-    title: 'Reinforcement Learning Game AI',
-    description: 'Self-learning AI agent for strategic game playing using deep reinforcement learning.',
-    tags: ['Reinforcement Learning', 'Neural Networks', 'Gaming'],
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop',
-    githubUrl: 'https://github.com',
-  },
-  {
-    title: 'Ethical AI Framework',
-    description: 'Open-source framework for evaluating bias and fairness in machine learning models.',
-    tags: ['Ethical AI', 'Bias Detection', 'MLOps'],
-    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2145&auto=format&fit=crop',
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
-  },
+  title: "Reddit Data Engineering",
+  description: "A data engineering project that extracts, processes, and analyzes Reddit data. It leverages APIs, ETL pipelines, and big data technologies to gain insights from Reddit discussions.",
+  tags: ["Data Engineering", "ETL", "Reddit API", "Big Data"],
+  image: "https://images.unsplash.com/photo-1533745848184-14286c5799c5?q=80&w=2030&auto=format&fit=crop",
+  githubUrl: "https://github.com/BeleRohit/RedditDataEngineering"
+},
+    {
+  title: "Book Recommendation System",
+  description: "A machine learning-based recommendation system that suggests books based on user preferences and reading history. It utilizes collaborative filtering and content-based filtering techniques to provide personalized recommendations.",
+  tags: ["Machine Learning", "Recommendation System", "NLP", "Data Science"],
+  image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=2030&auto=format&fit=crop",
+  githubUrl: "https://github.com/BeleRohit/book-recommendation-system"
+},
+  
 ];
 
 const Projects = () => {

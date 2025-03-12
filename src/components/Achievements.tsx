@@ -7,36 +7,25 @@ import { Trophy, Award, Medal, Star, Heart } from 'lucide-react';
 
 const achievementsData = [
   {
-    title: 'Top AI Researcher Award',
+    title: 'Amazon ML Summer School 2023: Shortlisted Participant',
     year: '2023',
-    description: 'Recognized as one of the top AI researchers for contributions to few-shot learning techniques.',
+    description: 'Selected as a top candidate to explore advanced AI domains, including deep learning architectures and cutting-edge generative models.',
     icon: <Trophy className="h-5 w-5" />,
   },
   {
-    title: 'Excellence in Innovation',
-    year: '2022',
-    description: 'Award for developing a novel approach to explainable AI in medical diagnostics.',
-    icon: <Star className="h-5 w-5" />,
-  },
-  {
-    title: 'Best Paper Award - NeurIPS',
-    year: '2022',
-    description: 'Received best paper award for research on efficient transformer architectures.',
-    icon: <Award className="h-5 w-5" />,
-  },
-  {
-    title: 'Google Research Grant',
-    year: '2021',
-    description: 'Received $150,000 research grant for work on ethical AI frameworks.',
+    title: 'Kaggle ML Olympiad 2024: 3rd Position',
+    year: '2024',
+    description: 'Secured 3rd place by developing a state-of-the-art model for earthquake damage prediction, achieving one of the highest F1 scores.',
     icon: <Medal className="h-5 w-5" />,
   },
   {
-    title: 'Community Contribution Award',
-    year: '2021',
-    description: 'Recognized for contributions to open-source AI tools and educational resources.',
-    icon: <Heart className="h-5 w-5" />,
+    title: 'TechPulse Newsletter: Founder and Author',
+    year: '2023',
+    description: 'Founded and authored a technical newsletter attracting 500+ subscribers, focusing on emerging trends in generative AI, multimodal systems, and foundational model research.',
+    icon: <Star className="h-5 w-5" />,
   },
 ];
+
 
 const Achievements = () => {
   const { ref, isVisible } = useScrollAnimation(0.1);

@@ -6,32 +6,18 @@ import PublicationCard from './PublicationCard';
 
 const publicationsData = [
   {
-    title: 'Advancing Few-Shot Learning in Computer Vision: A Novel Approach',
-    conference: 'IEEE Conference on Computer Vision',
-    date: 'June 2023',
-    description: 'This paper introduces a novel approach to few-shot learning that significantly improves performance on image classification tasks with limited data.',
-    pdfUrl: 'https://example.com/paper1.pdf',
+    title: 'Speech Emotion Recognition Using Deep Learning Techniques and Traditional Classifiers',
+    conference: '3ICT’24 Conference',
+    date: 'July 2024',
+    description: 'Achieved 96% accuracy in emotion classification using a novel CNN architecture. Integrated LSTM networks to capture temporal dependencies in speech signals and utilized MFCCs for feature extraction.',
+    pdfUrl: 'https://example.com/speech-emotion-paper.pdf', // Replace with actual URL if available
   },
   {
-    title: 'Ethical Considerations in Deploying AI Systems: A Framework',
-    conference: 'ACM Conference on Fairness and Transparency',
-    date: 'March 2023',
-    description: 'We present a comprehensive framework for evaluating ethical implications when deploying AI systems in real-world scenarios.',
-    pdfUrl: 'https://example.com/paper2.pdf',
-  },
-  {
-    title: 'Improving Transformer Efficiency for NLP Tasks',
-    conference: 'NeurIPS',
-    date: 'December 2022',
-    description: 'Our research demonstrates methods to reduce the computational requirements of transformer models while maintaining performance on key NLP benchmarks.',
-    pdfUrl: 'https://example.com/paper3.pdf',
-  },
-  {
-    title: 'Explainable AI for Medical Diagnosis: Challenges and Solutions',
-    conference: 'Journal of Medical AI',
-    date: 'September 2022',
-    description: 'This paper explores techniques for making deep learning models more interpretable in the context of medical diagnosis.',
-    pdfUrl: 'https://example.com/paper4.pdf',
+    title: 'Explainable AI for Finance',
+    conference: 'Finance AI Symposium',
+    date: 'June 2024',
+    description: 'Presented research on Explainable AI (XAI) methodologies for financial decision models, enhancing transparency in credit risk analysis and fraud detection. Proposed a framework integrating XAI techniques into predictive models.',
+    pdfUrl: 'https://example.com/explainable-ai-finance.pdf', // Replace with actual URL if available
   },
 ];
 

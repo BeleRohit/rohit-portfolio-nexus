@@ -59,7 +59,7 @@ const ProjectCard = ({
         <h3 className="text-xl font-bold mb-2 text-foreground">{title}</h3>
         
         <p className={cn(
-          'text-sm text-muted-foreground mb-4 opacity-0 transform translate-y-4',
+          'text-sm text-black dark:text-white mb-4 opacity-0 transform translate-y-4',
           'transition-all duration-300',
           isHovered ? 'opacity-100 translate-y-0' : ''
         )}>

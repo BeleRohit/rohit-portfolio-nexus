@@ -24,11 +24,11 @@ const About = () => {
           <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white shadow-xl">
             <div className="w-full h-full relative">
               <img
-                src="/lovable-uploads/2c012a68-d0a1-48cf-bd25-26b0653dff19.png"
+                src="/lovable-uploads/784ce49f-2730-4268-ba30-cfa198bdeebb.png"
                 alt="Rohit Bele"
-                className="w-full h-full object-cover object-center scale-[1.25]"
+                className="w-full h-full object-cover object-center scale-[1.1]"
                 style={{
-                  objectPosition: "50% 25%",
+                  objectPosition: "50% 30%",
                 }}
               />
             </div>

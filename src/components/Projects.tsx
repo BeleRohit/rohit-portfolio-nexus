@@ -1,4 +1,3 @@
-
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import Section from './Section';
@@ -12,6 +11,13 @@ const projectsData = [
     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop',
     githubUrl: 'https://github.com',
     liveUrl: 'https://example.com',
+  },
+  {
+    title: 'Linked List Operations',
+    description: 'This project is a Python-based graphical user interface (GUI) application that allows users to perform various linked list operations, including inserting, deleting, searching, and displaying elements of a linked list. The application is built using the Tkinter library and implements a modular approach to separate the linked list logic, GUI interface, and logging/error handling.',
+    tags: ['Python', 'Data Structures', 'Tkinter', 'GUI'],
+    image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2030&auto=format&fit=crop',
+    githubUrl: 'https://github.com/BeleRohit/LinkedList_Operations',
   },
   {
     title: 'NLP Document Summarizer',
@@ -89,3 +95,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

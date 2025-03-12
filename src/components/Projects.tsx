@@ -1,3 +1,4 @@
+
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import Section from './Section';
@@ -6,8 +7,8 @@ import ProjectCard from './ProjectCard';
 const projectsData = [
   {
     title: 'Fine Tuning LLM Models',
-    description: 'Fine Tuning Large language models like Deepseek\'s R1 and LLama 2',
-    tags: ['fine tuning','LLM','large language models'],
+    description: 'A comprehensive project focused on fine-tuning large language models including LLaMA-2 and DeepSeek\'s R1. Implemented parameter-efficient fine-tuning techniques like LoRA and QLoRA to adapt these models for specific tasks while maintaining performance. The project demonstrates optimization strategies, hyperparameter tuning, and evaluation methods for improving model accuracy and reducing training time.',
+    tags: ['fine tuning', 'LLM', 'large language models'],
     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop',
     githubUrl: 'https://github.com',
     liveUrl: 'https://example.com',

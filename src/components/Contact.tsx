@@ -9,22 +9,17 @@ const socialLinks = [
   {
     name: 'Email',
     icon: <Mail className="h-5 w-5" />,
-    url: 'mailto:rohit.bele@example.com',
+    url: 'mailto:rohitnbele@gmail.com',
   },
   {
     name: 'GitHub',
     icon: <Github className="h-5 w-5" />,
-    url: 'https://github.com',
+    url: 'https://github.com/belerohit',
   },
   {
     name: 'LinkedIn',
     icon: <Linkedin className="h-5 w-5" />,
-    url: 'https://linkedin.com',
-  },
-  {
-    name: 'Twitter',
-    icon: <Twitter className="h-5 w-5" />,
-    url: 'https://twitter.com',
+    url: 'https://linkedin.com/in/belerohit',
   },
 ];
 
@@ -59,7 +54,7 @@ const Contact = () => {
         
         <div className="inline-flex items-center gap-2 px-4 py-3 rounded-lg border border-primary/30 bg-primary/5 text-foreground mb-8">
           <Mail className="h-5 w-5 text-primary" />
-          <span>rohit.bele@example.com</span>
+          <span>rohitnbele@gmail.com</span>
           <button
             onClick={handleCopyEmail}
             className="ml-2 text-xs font-medium px-2 py-1 rounded bg-primary/10 text-primary hover:bg-primary/20 transition-colors"

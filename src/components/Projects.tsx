@@ -1,4 +1,3 @@
-
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import Section from './Section';
@@ -9,7 +8,7 @@ const projectsData = [
     title: 'Fine Tuning LLM Models',
     description: 'A comprehensive project focused on fine-tuning large language models including LLaMA-2 and DeepSeek\'s R1. Implemented parameter-efficient fine-tuning techniques like LoRA and QLoRA to adapt these models for specific tasks while maintaining performance. The project demonstrates optimization strategies, hyperparameter tuning, and evaluation methods for improving model accuracy and reducing training time.',
     tags: ['fine tuning', 'LLM', 'large language models'],
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1677442135968-6f8f768821ed?q=80&w=2070&auto=format&fit=crop',
     githubUrl: 'https://github.com',
     liveUrl: 'https://example.com',
   },
@@ -17,38 +16,37 @@ const projectsData = [
     title: 'Linked List Operations',
     description: 'This project is a Python-based graphical user interface (GUI) application that allows users to perform various linked list operations, including inserting, deleting, searching, and displaying elements of a linked list. The application is built using the Tkinter library and implements a modular approach to separate the linked list logic, GUI interface, and logging/error handling.',
     tags: ['Python', 'Data Structures', 'Tkinter', 'GUI'],
-    image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2030&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop',
     githubUrl: 'https://github.com/BeleRohit/LinkedList_Operations',
   },
   {
-  title: "AI PDF Assistant",
-  description: "A proof-of-concept web application that enables users to chat with the contents of a PDF document using a language model. Built with Streamlit and powered by Anyscale’s free LLM API.",
-  tags: ["NLP", "LLM", "PDF Processing", "Chatbot"],
-  image: "https://unsplash.com/photos/ai-artificial-intelligence-concept3d-renderingconceptual-image-aTWKwJllPOA",
-  githubUrl: "http://github.com/BeleRohit/chatty-patty"
-},
+    title: "AI PDF Assistant",
+    description: "A proof-of-concept web application that enables users to chat with the contents of a PDF document using a language model. Built with Streamlit and powered by Anyscale's free LLM API.",
+    tags: ["NLP", "LLM", "PDF Processing", "Chatbot"],
+    image: "https://images.unsplash.com/photo-1639322537231-2f206e06af84?q=80&w=2832&auto=format&fit=crop",
+    githubUrl: "http://github.com/BeleRohit/chatty-patty"
+  },
   {
-  title: "Speech Emotion Classifier",
-  description: "A Speech Emotion Recognition (SER) system using Convolutional Neural Networks (CNN) in Python. It classifies audio recordings into emotion categories, enabling applications in customer service, mental health monitoring, and more.",
-  tags: ["Deep Learning", "CNN", "Speech Recognition", "Emotion Analysis"],
-  image: "https://unsplash.com/photos/portrait-of-young-woman-screaming-on-a-megaphone-marketing-or-sales-concept--yzZiPt1q3M",
-  githubUrl: "http://github.com/BeleRohit/speech-classifier"
-},
+    title: "Speech Emotion Classifier",
+    description: "A Speech Emotion Recognition (SER) system using Convolutional Neural Networks (CNN) in Python. It classifies audio recordings into emotion categories, enabling applications in customer service, mental health monitoring, and more.",
+    tags: ["Deep Learning", "CNN", "Speech Recognition", "Emotion Analysis"],
+    image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?q=80&w=2070&auto=format&fit=crop",
+    githubUrl: "http://github.com/BeleRohit/speech-classifier"
+  },
   {
-  title: "Reddit Data Engineering",
-  description: "A data engineering project that extracts, processes, and analyzes Reddit data. It leverages APIs, ETL pipelines, and big data technologies to gain insights from Reddit discussions.",
-  tags: ["Data Engineering", "ETL", "Reddit API", "Big Data"],
-  image: "https://unsplash.com/photos/red-and-white-8-logo-0FytazjHhxs",
-  githubUrl: "https://github.com/BeleRohit/RedditDataEngineering"
-},
-    {
-  title: "Book Recommendation System",
-  description: "A machine learning-based recommendation system that suggests books based on user preferences and reading history. It utilizes collaborative filtering and content-based filtering techniques to provide personalized recommendations.",
-  tags: ["Machine Learning", "Recommendation System", "NLP", "Data Science"],
-  image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=2030&auto=format&fit=crop",
-  githubUrl: "https://github.com/BeleRohit/book-recommendation-system"
-},
-  
+    title: "Reddit Data Engineering",
+    description: "A data engineering project that extracts, processes, and analyzes Reddit data. It leverages APIs, ETL pipelines, and big data technologies to gain insights from Reddit discussions.",
+    tags: ["Data Engineering", "ETL", "Reddit API", "Big Data"],
+    image: "https://images.unsplash.com/photo-1675359617960-2e6e8212cea6?q=80&w=1974&auto=format&fit=crop",
+    githubUrl: "https://github.com/BeleRohit/RedditDataEngineering"
+  },
+  {
+    title: "Book Recommendation System",
+    description: "A machine learning-based recommendation system that suggests books based on user preferences and reading history. It utilizes collaborative filtering and content-based filtering techniques to provide personalized recommendations.",
+    tags: ["Machine Learning", "Recommendation System", "NLP", "Data Science"],
+    image: "https://images.unsplash.com/photo-1526243741027-444d633d7365?q=80&w=2071&auto=format&fit=crop",
+    githubUrl: "https://github.com/BeleRohit/book-recommendation-system"
+  },
 ];
 
 const Projects = () => {
@@ -87,4 +85,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

@@ -24,21 +24,21 @@ const projectsData = [
   title: "AI PDF Assistant",
   description: "A proof-of-concept web application that enables users to chat with the contents of a PDF document using a language model. Built with Streamlit and powered by Anyscale’s free LLM API.",
   tags: ["NLP", "LLM", "PDF Processing", "Chatbot"],
-  image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf25f?q=80&w=2030&auto=format&fit=crop",
+  image: "https://unsplash.com/photos/ai-artificial-intelligence-concept3d-renderingconceptual-image-aTWKwJllPOA",
   githubUrl: "http://github.com/BeleRohit/chatty-patty"
 },
   {
   title: "Speech Emotion Classifier",
   description: "A Speech Emotion Recognition (SER) system using Convolutional Neural Networks (CNN) in Python. It classifies audio recordings into emotion categories, enabling applications in customer service, mental health monitoring, and more.",
   tags: ["Deep Learning", "CNN", "Speech Recognition", "Emotion Analysis"],
-  image: "https://images.unsplash.com/photo-1581093448798-5b77c6f00d4c?q=80&w=2030&auto=format&fit=crop",
+  image: "https://unsplash.com/photos/portrait-of-young-woman-screaming-on-a-megaphone-marketing-or-sales-concept--yzZiPt1q3M",
   githubUrl: "http://github.com/BeleRohit/speech-classifier"
 },
   {
   title: "Reddit Data Engineering",
   description: "A data engineering project that extracts, processes, and analyzes Reddit data. It leverages APIs, ETL pipelines, and big data technologies to gain insights from Reddit discussions.",
   tags: ["Data Engineering", "ETL", "Reddit API", "Big Data"],
-  image: "https://images.unsplash.com/photo-1533745848184-14286c5799c5?q=80&w=2030&auto=format&fit=crop",
+  image: "https://unsplash.com/photos/red-and-white-8-logo-0FytazjHhxs",
   githubUrl: "https://github.com/BeleRohit/RedditDataEngineering"
 },
     {

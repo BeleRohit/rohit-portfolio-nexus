@@ -10,14 +10,14 @@ const publicationsData = [
     conference: '3ICT’24 Conference',
     date: 'July 2024',
     description: 'Achieved 96% accuracy in emotion classification using a novel CNN architecture. Integrated LSTM networks to capture temporal dependencies in speech signals and utilized MFCCs for feature extraction.',
-    pdfUrl: 'https://example.com/speech-emotion-paper.pdf', // Replace with actual URL if available
+    pdfUrl: 'https://drive.google.com/file/d/1R4kaP4-CJ1kBb3TX1gBON6kXPj57Zm40/view?usp=sharing', // Replace with actual URL if available
   },
   {
     title: 'Explainable AI for Finance',
     conference: 'Finance AI Symposium',
     date: 'June 2024',
     description: 'Presented research on Explainable AI (XAI) methodologies for financial decision models, enhancing transparency in credit risk analysis and fraud detection. Proposed a framework integrating XAI techniques into predictive models.',
-    pdfUrl: 'https://example.com/explainable-ai-finance.pdf', // Replace with actual URL if available
+    pdfUrl: 'https://drive.google.com/file/d/1JA4cRTjHqMJ8c4cd720lPOnhL2740yGv/view?usp=sharing', // Replace with actual URL if available
   },
 ];
 

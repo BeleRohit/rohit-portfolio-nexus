@@ -26,9 +26,10 @@ const About = () => {
               <img
                 src="/lovable-uploads/784ce49f-2730-4268-ba30-cfa198bdeebb.png"
                 alt="Rohit Bele"
-                className="w-full h-full object-cover object-center scale-[1.1]"
+                className="w-full h-full object-cover"
                 style={{
-                  objectPosition: "50% 30%",
+                  objectPosition: "50% 50%",
+                  transform: "scale(0.9)",
                 }}
               />
             </div>

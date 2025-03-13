@@ -18,9 +18,7 @@ const Hero = () => {
       ></div>
       
       <div className="relative z-10 text-center max-w-3xl mx-auto">
-        <div className="inline-block mb-4 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium animate-fade-in">
-          AI & Data Science Portfolio
-        </div>
+        {/* Removed the AI & Data Science portfolio button that was here */}
         
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in animation-delay-100">
           <span className="block">Hi, I'm</span>

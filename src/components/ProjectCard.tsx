@@ -21,6 +21,10 @@ const ProjectCard = ({
   liveUrl,
 }: ProjectCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [imageError, setImageError] = useState(false);
+  
+  // Fallback image in case the provided URL fails to load
+  const fallbackImage = "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2712&auto=format&fit=crop";
   
   return (
     <div
@@ -36,12 +40,13 @@ const ProjectCard = ({
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90 z-10"></div>
       
       <img
-        src={image}
+        src={imageError ? fallbackImage : image}
         alt={title}
         className={cn(
           'h-full w-full object-cover transition-transform duration-700',
           isHovered ? 'scale-110' : 'scale-100'
         )}
+        onError={() => setImageError(true)}
       />
       
       <div className="absolute bottom-0 left-0 right-0 p-6 z-20">

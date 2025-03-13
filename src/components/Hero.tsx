@@ -53,11 +53,13 @@ const Hero = () => {
             Get In Touch
           </a>
         </div>
-        
+      </div>
+      
+      {/* Moved the scroll down button outside the main content div and adjusted positioning */}
+      <div className="absolute bottom-10 left-0 right-0 flex justify-center">
         <a
           href="#about"
           className={cn(
-            'absolute bottom-12 left-1/2 transform -translate-x-1/2',
             'flex flex-col items-center justify-center text-sm text-muted-foreground',
             'opacity-70 hover:opacity-100 transition-opacity'
           )}

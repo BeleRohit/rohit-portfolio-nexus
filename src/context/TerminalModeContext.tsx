@@ -4,6 +4,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 type TerminalModeContextType = {
   isTerminalMode: boolean;
   toggleTerminalMode: () => void;
+  handleTerminalButtonClick: () => void; // New function for UI toggling
 };
 
 const TerminalModeContext = createContext<TerminalModeContextType | undefined>(undefined);
@@ -31,8 +32,17 @@ export function TerminalModeProvider({ children }: { children: React.ReactNode }
     }
   };
 
+  // Function specifically for UI button toggling
+  const handleTerminalButtonClick = () => {
+    toggleTerminalMode();
+  };
+
   return (
-    <TerminalModeContext.Provider value={{ isTerminalMode, toggleTerminalMode }}>
+    <TerminalModeContext.Provider value={{ 
+      isTerminalMode, 
+      toggleTerminalMode,
+      handleTerminalButtonClick
+    }}>
       {children}
     </TerminalModeContext.Provider>
   );

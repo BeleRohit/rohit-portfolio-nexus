@@ -11,9 +11,11 @@ import Achievements from '@/components/Achievements';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import TerminalLayout from '@/components/terminal/TerminalLayout';
+import { Toggle } from '@/components/ui/toggle';
+import { Terminal } from 'lucide-react';
 
 const Index = () => {
-  const { isTerminalMode } = useTerminalMode();
+  const { isTerminalMode, handleTerminalButtonClick } = useTerminalMode();
   
   // Add a mechanism to ensure scroll animations trigger properly when navigating directly to sections
   useEffect(() => {
@@ -34,6 +36,15 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Navbar />
+      <div className="fixed z-50 bottom-8 right-8">
+        <Toggle
+          aria-label="Toggle Terminal Mode"
+          className="bg-primary/10 hover:bg-primary/20 w-12 h-12 rounded-full flex items-center justify-center shadow-lg"
+          onPressedChange={handleTerminalButtonClick}
+        >
+          <Terminal className="h-5 w-5" />
+        </Toggle>
+      </div>
       <main>
         <Hero />
         <About />

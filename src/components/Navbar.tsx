@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useActiveSection } from '@/hooks/useScrollAnimation';
+import { ThemeToggle } from './theme-toggle';
 
 const navItems = [
   { href: '#hero', label: 'Home' },
@@ -63,18 +64,22 @@ const Navbar = () => {
           ))}
         </nav>
         
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden text-foreground"
-          onClick={toggleMobileMenu}
-          aria-label="Toggle menu"
-        >
-          {isMobileMenuOpen ? (
-            <X className="h-6 w-6" />
-          ) : (
-            <Menu className="h-6 w-6" />
-          )}
-        </button>
+        <div className="flex items-center gap-4">
+          <ThemeToggle />
+          
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden text-foreground"
+            onClick={toggleMobileMenu}
+            aria-label="Toggle menu"
+          >
+            {isMobileMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
+          </button>
+        </div>
       </div>
       
       {/* Mobile Navigation */}
@@ -103,6 +108,10 @@ const Navbar = () => {
             {item.label}
           </a>
         ))}
+        
+        <div className="mt-6">
+          <ThemeToggle />
+        </div>
       </nav>
     </header>
   );

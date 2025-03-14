@@ -1,12 +1,13 @@
 
 import { cn } from '@/lib/utils';
-import { Trophy } from 'lucide-react';
+import { Trophy, ExternalLink } from 'lucide-react';
 
 interface AchievementCardProps {
   title: string;
   year: string;
   description: string;
   icon?: React.ReactNode;
+  link?: string;
 }
 
 const AchievementCard = ({
@@ -14,6 +15,7 @@ const AchievementCard = ({
   year,
   description,
   icon = <Trophy className="h-5 w-5" />,
+  link,
 }: AchievementCardProps) => {
   return (
     <div className="flex gap-4 items-start p-4 rounded-lg hover:bg-card/50 transition-colors">
@@ -32,6 +34,18 @@ const AchievementCard = ({
         <p className="text-sm text-muted-foreground">
           {description}
         </p>
+        
+        {link && (
+          <a 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="mt-2 inline-flex items-center gap-1 text-sm text-primary hover:underline"
+          >
+            <span>View Newsletter</span>
+            <ExternalLink className="h-3 w-3" />
+          </a>
+        )}
       </div>
     </div>
   );

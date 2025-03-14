@@ -23,6 +23,7 @@ const achievementsData = [
     year: '2023',
     description: 'Founded and authored a technical newsletter attracting 500+ subscribers, focusing on emerging trends in generative AI, multimodal systems, and foundational model research.',
     icon: <Star className="h-5 w-5" />,
+    link: 'https://www.linkedin.com/newsletters/7068196779149733888/'
   },
 ];
 

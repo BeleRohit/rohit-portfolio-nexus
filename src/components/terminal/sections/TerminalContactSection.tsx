@@ -37,7 +37,7 @@ const TerminalContactSection = () => {
         
         {step >= 1 && (
           <div className="mb-4">
-            <div className="text-cyan-400 mb-2">> Contact Information:</div>
+            <div className="text-cyan-400 mb-2">{'>'}  Contact Information:</div>
             <div className="pl-4 space-y-2">
               <div className="text-green-500">
                 Email: {contactData.email}
@@ -54,7 +54,7 @@ const TerminalContactSection = () => {
         
         {step >= 2 && (
           <div className="mb-4">
-            <div className="text-cyan-400 mb-2">> Social Links:</div>
+            <div className="text-cyan-400 mb-2">{'>'}  Social Links:</div>
             <div className="pl-4 space-y-2">
               <div className="text-green-500">
                 GitHub: <a href={contactData.github} target="_blank" rel="noopener noreferrer" className="hover:underline">{contactData.github}</a>
@@ -74,7 +74,7 @@ const TerminalContactSection = () => {
         
         {step >= 4 && (
           <div className="mt-6 p-4 border border-green-500/30 rounded bg-black/50">
-            <div className="text-cyan-400 mb-2">> Ready to Connect:</div>
+            <div className="text-cyan-400 mb-2">{'>'}  Ready to Connect:</div>
             <p className="text-green-500">
               Feel free to reach out through any of the channels above. I'm always interested in discussing new projects,
               creative ideas, or opportunities.

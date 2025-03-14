@@ -89,7 +89,7 @@ const Contact = () => {
             Whether you have a question, a project idea, or just want to say hello, I'll try my best to get back to you as soon as possible.
           </p>
           <a
-            href="mailto:rohit.bele@example.com"
+            href="mailto:rohitnbele@gmail.com"
             className={cn(
               'inline-block px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium',
               'transform hover:translate-y-[-2px] transition-all duration-300'

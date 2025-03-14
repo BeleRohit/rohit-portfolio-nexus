@@ -115,6 +115,11 @@ export default {
           "0%, 100%": { opacity: "1" },
           "50%": { opacity: "0.5" },
         },
+        "theme-wave": {
+          "0%": { transform: "scale(0)", opacity: "1" },
+          "80%": { opacity: "1" },
+          "100%": { transform: "scale(1)", opacity: "0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -127,6 +132,7 @@ export default {
         "scale-in": "scale-in 0.3s ease-out forwards",
         float: "float 3s ease-in-out infinite",
         pulse: "pulse 3s ease-in-out infinite",
+        "theme-wave": "theme-wave 1s cubic-bezier(0.25, 0.1, 0.25, 1) forwards",
       },
     },
   },

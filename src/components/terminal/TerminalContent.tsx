@@ -8,6 +8,7 @@ import TerminalProjectsSection from './sections/TerminalProjectsSection';
 import TerminalPublicationsSection from './sections/TerminalPublicationsSection';
 import TerminalAchievementsSection from './sections/TerminalAchievementsSection';
 import TerminalContactSection from './sections/TerminalContactSection';
+import TerminalBooksSection from './sections/TerminalBooksSection';
 
 interface TerminalContentProps {
   section: string;
@@ -41,6 +42,7 @@ const TerminalContent = ({ section }: TerminalContentProps) => {
         {section === 'about' && <TerminalAboutSection />}
         {section === 'skills' && <TerminalSkillsSection />}
         {section === 'projects' && <TerminalProjectsSection />}
+        {section === 'books' && <TerminalBooksSection />}
         {section === 'publications' && <TerminalPublicationsSection />}
         {section === 'achievements' && <TerminalAchievementsSection />}
         {section === 'contact' && <TerminalContactSection />}

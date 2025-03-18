@@ -19,21 +19,21 @@ type Author = {
 const authorsData: Author[] = [
   {
     name: "Daniel Kahneman",
-    photo: "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=1170&auto=format&fit=crop",
+    photo: "https://unsplash.com/photos/the-international-bestseller-thinking-fast-and-slow-book-9v7j3hdAqnA",
     bio: "Israeli-American psychologist and economist notable for his work on the psychology of judgment and decision-making, as well as behavioral economics. Nobel Prize winner in Economic Sciences.",
     notableWorks: ["Thinking, Fast and Slow", "Noise: A Flaw in Human Judgment", "Judgment Under Uncertainty: Heuristics and Biases"],
     whyAdmire: "His groundbreaking work on cognitive biases has transformed our understanding of human decision-making, revealing the systematic errors in our thinking processes and providing frameworks to improve judgment."
   },
   {
     name: "Yuval Noah Harari",
-    photo: "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1169&auto=format&fit=crop",
+    photo: "https://pin.it/67gaZxD9V",
     bio: "Israeli public intellectual, historian and professor at the Hebrew University of Jerusalem, known for his books on macro-history, evolution, and futurism.",
     notableWorks: ["Sapiens: A Brief History of Humankind", "Homo Deus: A Brief History of Tomorrow", "21 Lessons for the 21st Century"],
     whyAdmire: "His ability to synthesize vast amounts of information across disciplines and present comprehensive, accessible narratives about humanity's past, present, and future challenges."
   },
   {
     name: "Marcus Aurelius",
-    photo: "https://images.unsplash.com/photo-1570246051473-7c3ad694c9c0?q=80&w=1170&auto=format&fit=crop",
+    photo: "https://pin.it/4FPoFTUVx",
     bio: "Roman Emperor from 161 to 180 AD and Stoic philosopher, known for his personal writings which later became the philosophical text 'Meditations'.",
     notableWorks: ["Meditations"],
     whyAdmire: "His practical philosophy on resilience, virtue, and self-improvement has remained relevant for nearly two millennia, offering timeless wisdom on navigating life's challenges with grace and dignity."

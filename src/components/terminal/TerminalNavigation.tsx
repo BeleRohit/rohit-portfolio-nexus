@@ -15,6 +15,7 @@ const TerminalNavigation = ({ currentSection, setCurrentSection }: TerminalNavig
     { id: 'about', label: 'about', key: 'a' },
     { id: 'skills', label: 'skills', key: 's' },
     { id: 'projects', label: 'projects', key: 'p' },
+    { id: 'books', label: 'books', key: 'b' },
     { id: 'publications', label: 'publications', key: 'r' },
     { id: 'achievements', label: 'achievements', key: 'v' },
     { id: 'contact', label: 'contact', key: 'c' },

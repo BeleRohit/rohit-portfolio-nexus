@@ -1,4 +1,3 @@
-
 import { useEffect, useState, useRef } from 'react';
 import { useTerminalMode } from '@/context/TerminalModeContext';
 import { Terminal, MinimizeIcon, MaximizeIcon, X, Cpu } from 'lucide-react';
@@ -34,6 +33,7 @@ const TerminalLayout = () => {
     if (e.key === 'a') setCurrentSection('about');
     if (e.key === 's') setCurrentSection('skills');
     if (e.key === 'p') setCurrentSection('projects');
+    if (e.key === 'b') setCurrentSection('books');
     if (e.key === 'r') setCurrentSection('publications');
     if (e.key === 'v') setCurrentSection('achievements');
     if (e.key === 'c') setCurrentSection('contact');

@@ -8,6 +8,8 @@ import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import Publications from '@/components/Publications';
 import Achievements from '@/components/Achievements';
+import Books from '@/components/Books';
+import Authors from '@/components/Authors';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import TerminalLayout from '@/components/terminal/TerminalLayout';
@@ -50,6 +52,8 @@ const Index = () => {
         <About />
         <Skills />
         <Projects />
+        <Books />
+        <Authors />
         <Publications />
         <Achievements />
         <Contact />

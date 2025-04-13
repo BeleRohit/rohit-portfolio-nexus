@@ -6,24 +6,24 @@ const TerminalAboutSection = () => {
   
   const aboutData = [
     "> USER PROFILE: Rohit Bele",
-    "> ROLE: AI Engineer & Data Scientist",
+    "> ROLE: Data Engineer Intern @ Eversana",
     "> STATUS: Active",
     "",
     "> DESCRIPTION:",
-    "Results-driven Data Scientist and AI Engineer with expertise in Natural Language Processing (NLP), Generative AI, and Large Language Models (LLMs).",
+    "Emerging Data Engineer Intern with a strong foundation in data science and AI technologies.",
     "",
-    "Proficient in Python, SQL, PL/SQL, ETL Pipelines, and Reporting Tools.",
+    "Skilled in Python, SQL, data transformation, and cloud computing technologies.",
     "",
-    "Strong analytical mindset with hands-on experience in AI model development, cloud computing (AWS), and data-driven decision-making.",
+    "Passionate about creating data-driven solutions and delivering actionable insights.",
     "",
     "> EDUCATION:",
     "Bachelor's in Computer Science (Specializing in Data Science)",
     "Lovely Professional University, 2024",
     "",
-    "> EXPERIENCE:",
-    "Data Scientist: 1 Year",
+    "> CURRENT EXPERIENCE:",
+    "Data Engineer Intern: Eversana",
     "",
-    "> EXECUTING: mission.pursue_ai_excellence.sh"
+    "> EXECUTING: mission.innovate_data_solutions.sh"
   ];
 
   useEffect(() => {

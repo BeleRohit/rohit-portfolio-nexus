@@ -11,7 +11,7 @@ const About = () => {
     <Section
       id="about"
       title="About Me"
-      subtitle="AI Engineer and Researcher passionate about creating intelligent solutions"
+      subtitle="Data Engineer and AI Enthusiast passionate about transforming data into insights"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div
@@ -44,31 +44,33 @@ const About = () => {
           )}
         >
           <p className="text-lg text-foreground/80">
-            Results-driven Data Scientist and AI Engineer with expertise in Natural Language Processing (NLP), Generative
-            AI, and Large Language Models (LLMs). Proficient in Python, SQL, PL/SQL, ETL Pipelines, and Reporting
-            Tools.
+            Emerging Data Engineer Intern at Eversana, bringing a strong foundation in data science, 
+            AI technologies, and analytical problem-solving. Skilled in leveraging data to drive 
+            strategic insights and support business decision-making.
           </p>
           
           <p className="text-lg text-foreground/80">
-            Strong analytical mindset with hands-on experience in AI model development, cloud computing (AWS),
-            and data-driven decision-making. Passionate about leveraging AI to solve real-world business problems.
+            Passionate about utilizing Python, SQL, and cloud computing technologies 
+            to transform complex data into meaningful solutions. Committed to continuous 
+            learning and innovation in the data engineering landscape.
           </p>
           
           <p className="text-lg text-foreground/80">
-            Known for high motivation, strong work ethic, and adaptability in fast-paced environments.
+            Combining academic knowledge with practical experience to create 
+            data-driven strategies that deliver tangible business value.
           </p>
           
           <div className="grid grid-cols-2 gap-4 mt-4">
             <div>
               <h3 className="text-xl font-bold text-primary mb-2">Education</h3>
-              <p className="text-foreground font-medium">Bachelor's in Computer Science ( Specializing in Data Science)</p>
+              <p className="text-foreground font-medium">Bachelor's in Computer Science (Data Science Specialization)</p>
               <p className="text-sm text-muted-foreground">Lovely Professional University, 2024</p>
             </div>
             
             <div>
-              <h3 className="text-xl font-bold text-primary mb-2">Experience</h3>
-              <p className="text-foreground font-medium">Data Scientist</p>
-              <p className="text-sm text-muted-foreground">1 Year</p>
+              <h3 className="text-xl font-bold text-primary mb-2">Current Role</h3>
+              <p className="text-foreground font-medium">Data Engineer Intern</p>
+              <p className="text-sm text-muted-foreground">Eversana</p>
             </div>
           </div>
         </div>
